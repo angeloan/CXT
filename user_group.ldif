@@ -1,0 +1,33 @@
+dn: uid=paco,ou=People,dc=omeudominio,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: paco
+cn: Francisco Glez
+cn: Francisco González
+cn: Francisco González Fernández
+sn: González Fernández
+uidNumber: 1001
+gidNumber: 1000
+homeDirectory: /home/paco
+loginShell: /bin/bash
+gecos: Paco's office
+
+dn: uid=pepe,ou=People,dc=omeudominio,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: pepe
+cn: José Fez
+cn: José Fernández
+cn: José Fernández García
+sn: Fernández García
+uidNumber: 1002
+gidNumber: 1000
+homeDirectory: /home/pepe
+loginShell: /bin/bash
+gecos: Despacho 2
+
+dn: cn=Users,ou=Groups,dc=omeudominio,dc=com
+objectClass: posixGroup
+cn: Users
+gidNumber: 1000
+
