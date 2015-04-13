@@ -1,0 +1,8 @@
+dn: ou=People,dc=omeudominio,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Groups,dc=omeudominio,dc=com
+objectClass: organizationalUnit
+ou: Groups
+
