@@ -12,6 +12,20 @@ homeDirectory: /home/paco
 loginShell: /bin/bash
 gecos: Paco's office
 
+dn: uid=angel,ou=People,dc=omeudominio,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+uid: angel
+cn: Ángel Lpz
+cn: Ángel López
+cn: Ángel López López
+sn: López López
+uidNumber: 1003
+gidNumber: 1000
+homeDirectory: /home/angel
+loginShell: /bin/bash
+gecos: Angel's office
+
 dn: uid=pepe,ou=People,dc=omeudominio,dc=com
 objectClass: inetOrgPerson
 objectClass: posixAccount
